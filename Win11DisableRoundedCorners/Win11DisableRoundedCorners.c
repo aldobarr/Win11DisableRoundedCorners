@@ -41,7 +41,7 @@ int main(int argc, char** argv)
         szOriginalDWM,
         (_MAX_PATH) * sizeof(char)
     );
-    GetSystemDirectoryA(
+    GetCurrentDirectory(
         szOriginalDWM,
         MAX_PATH
     );
